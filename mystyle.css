@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  background: #555;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.containerformedia {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  
+
+}
+
+.containerforexlain {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.main {
+  flex: 3;
+  padding: 20px;
+  background: #f4f4f4;
+  margin: 10px;
+  min-width: 150px;
+
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background: #ddd;
+  margin: 10px;
+
+}
+
+.mediabox {
+  flex: 1;
+  padding: 20px;
+  background: #ddd;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+ 
+video{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  background-color: rgb(15, 14, 14); 
+  color: white; 
+  border-radius: 5px; 
+  padding: 5px; 
+}
+
+.myjourney{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4 a:hover {
+  background-color: rgb(15, 14, 14); 
+  color: white; 
+  border-radius: 5px; 
+  padding: 5px; 
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
