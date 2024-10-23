@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -23,15 +24,11 @@ nav {
   height: 100vh; 
 }
 
-
-
-
 .container {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
   margin-left: 200px;
-
 }
 
 .containerformedia {
@@ -39,25 +36,21 @@ nav {
   flex-wrap: wrap;
   padding: 20px;
   margin-left: 200px;
-  
-
 }
 
 .containerforexlain {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-
 }
 
 .main {
-  flex:1;
+  flex: 1;
   padding: 20px;
   background: #f4f4f4;
   margin: 10px;
   min-width: 150px;
   margin-left: 10%;
-
 }
 
 .sidebar {
@@ -65,7 +58,6 @@ nav {
   padding: 20px;
   background: #ddd;
   margin: 10px;
-
 }
 
 .mediabox {
@@ -85,14 +77,14 @@ footer {
   width: 100%;
   bottom: 0;
 }
- 
-video{
+
+video {
   width: 100%;
   height: auto;
   border-radius: 10px;
-
 }
-img{
+
+img {
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -105,23 +97,68 @@ nav a:hover {
   padding: 5px; 
 }
 
-.myjourney{
+.myjourney {
   text-align: center;
 }
-h3{
+
+h3 {
   text-align: center;
 }
+
 h4 a:hover {
   background-color: rgb(15, 14, 14); 
   color: white; 
   border-radius: 5px; 
   padding: 5px; 
 }
+
 a {
   color: beige;
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  padding: 10px 0; /* ระยะห่างระหว่างเมนู */
+  padding: 10px 0;
   flex-wrap: wrap;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  nav {
+    position: relative;
+    width: 100%; 
+    height: auto;
+  }
+
+  .container, .containerformedia {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    width: 100%; 
+    padding: 5px;
+  }
+
+  .container, .containerformedia {
+    padding: 10px;
+  }
+
+  .main {
+    padding: 10px;
+  }
+
+  .sidebar, .mediabox {
+    margin: 5px 0;
+    padding: 10px;
+  }
+
+  a {
+    padding: 5px;
+  }
 }
