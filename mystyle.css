@@ -13,16 +13,21 @@ header {
 }
 
 nav {
+  display: block;
   background: #555;
   padding: 10px;
-  text-align: center;
+  width: 200px; 
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 15px;
+  display: block; 
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: left; 
 }
+
 
 .container {
   display: flex;
